@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <style>
+        #slide {
+            margin: 20px 0;
+            background-color: lightgrey;
+        }
+
+        .hot-tour-text {
+            text-align: center;
+            padding: 200px 20px 69px;
+            background-color: lightgrey;
+        }
+
+        .hot-tour-text p {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+        }
+
+        .hot-tour-text .btn {
+            padding: 11px 32px;
+            font-size: 18px;
+            margin: 8px 4px;
+        }
+
+        .hot-tour-text .btn-details {
+            padding: 11px 31px;
+            background-color: darkgray;
+            color: #f2f2f2;
+        }
+
+        .btn-details:hover {
+            background-color: black;
+            color: #f2f2f2;
+        }
+
+        .btn-orange,
+        .btn-orange:focus {
+            background: #faa61a;
+            color: white;
+        }
+
+        .btn-orange:hover {
+            background: #010101;
+            color: white;
+        }
+
+        .hot-tour-text .hot-tour-title {
+            font-size: 55px;
+            font-weight: 100;
+            margin-bottom: 26px;
+            line-height: 1.25em;
+        }
+
+        .hotline-phone-ring-wrap {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 999999;
+        }
+
+        .hotline-phone-ring {
+            position: relative;
+            visibility: visible;
+            background-color: transparent;
+            width: 110px;
+            height: 110px;
+            cursor: pointer;
+            z-index: 11;
+            -webkit-backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            transition: visibility .5s;
+            left: 0;
+            bottom: 0;
+            display: block;
+        }
+
+        .hotline-phone-ring-circle {
+            width: 85px;
+            height: 85px;
+            top: 10px;
+            left: 10px;
+            position: absolute;
+            background-color: transparent;
+            border-radius: 100%;
+            border: 2px solid #e60808;
+            -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+            animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+            transition: all .5s;
+            -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            opacity: 0.5;
+        }
+
+        .hotline-phone-ring-circle-fill {
+            width: 55px;
+            height: 55px;
+            top: 25px;
+            left: 25px;
+            position: absolute;
+            background-color: rgba(230, 8, 8, 0.7);
+            border-radius: 100%;
+            border: 2px solid transparent;
+            -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+            animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+            transition: all .5s;
+            -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+
+        .hotline-phone-ring-img-circle {
+            background-color: #e60808;
+            width: 33px;
+            height: 33px;
+            top: 37px;
+            left: 37px;
+            position: absolute;
+            background-size: 20px;
+            border-radius: 100%;
+            border: 2px solid transparent;
+            -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+            animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+            -webkit-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hotline-phone-ring-img-circle .pps-btn-img {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        .hotline-phone-ring-img-circle .pps-btn-img img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .hotline-bar {
+            position: absolute;
+            background: rgba(230, 8, 8, 0.75);
+            height: 40px;
+            width: 180px;
+            line-height: 40px;
+            border-radius: 3px;
+            padding: 0 10px;
+            background-size: 100%;
+            cursor: pointer;
+            transition: all 0.8s;
+            -webkit-transition: all 0.8s;
+            z-index: 9;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 50px !important;
+            /* width: 175px !important; */
+            left: 33px;
+            bottom: 37px;
+        }
+
+        .hotline-bar > a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            text-indent: 50px;
+            display: block;
+            letter-spacing: 1px;
+            line-height: 40px;
+            font-family: Arial;
+        }
+
+        .hotline-bar > a:hover,
+        .hotline-bar > a:active {
+            color: #fff;
+        }
+
+        @-webkit-keyframes phonering-alo-circle-anim {
+            0% {
+                -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+                -webkit-opacity: 0.1;
+            }
+            30% {
+                -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+                -webkit-opacity: 0.5;
+            }
+            100% {
+                -webkit-transform: rotate(0) scale(1) skew(1deg);
+                -webkit-opacity: 0.1;
+            }
+        }
+
+        @-webkit-keyframes phonering-alo-circle-fill-anim {
+            0% {
+                -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+                opacity: 0.6;
+            }
+            50% {
+                -webkit-transform: rotate(0) scale(1) skew(1deg);
+                opacity: 0.6;
+            }
+            100% {
+                -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+                opacity: 0.6;
+            }
+        }
+
+        @-webkit-keyframes phonering-alo-circle-img-anim {
+            0% {
+                -webkit-transform: rotate(0) scale(1) skew(1deg);
+            }
+            10% {
+                -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+            }
+            20% {
+                -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+            }
+            30% {
+                -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+            }
+            40% {
+                -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+            }
+            50% {
+                -webkit-transform: rotate(0) scale(1) skew(1deg);
+            }
+            100% {
+                -webkit-transform: rotate(0) scale(1) skew(1deg);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hotline-bar {
+                display: none;
+            }
+        }
+
+        body {
+            background-position: right bottom;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 2032px;
+            background-attachment: fixed;
+        }
+
+        .btn-top {
+            background-repeat: no-repeat;
+            border: medium none;
+            bottom: 20px;
+            cursor: pointer;
+            display: none;
+            height: 50px;
+            outline: medium none;
+            padding: 0;
+            position: fixed;
+            right: 20px;
+            width: 50px;
+            z-index: 9999;
+        }
+
+        section {
+            background-color: #505050;
+            height: 300px;
+        }
+
+        .container {
+            background: linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+            ),
+            url(https://www.travelvietnam.com/images/photos/asia/vietnam-danang-furama-resort-danang-9.jpg?t=1591900492);
+            background-size: 100%;
+            height: 600px;
+            position: inherit;
+            margin-top: 150px;
+        }
+
+        .tieu_de {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        pre {
+            text-transform: uppercase;
+            font-family: Algerian;
+        }
+
+        nav {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("https://cdn.pixabay.com/photo/2021/07/06/19/26/drops-6392473__340.jpg");
+            color: black;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        .col-2:hover {
+            overflow: scroll;
+            height: 520px;
+        }
+
+        .col-2 {
+            overflow: auto;
+        }
+
+        input[type=text], input[type=email], input[type=number], input[type= date], textarea, select {
+            width: 100%;
+            padding: 12px 0px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #form {
+            width: 40%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: 30%;
+            margin-bottom: 30px;
+        }
+
+        input[type=submit] {
+            background-color: #22ff00;
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        #save:hover {
+            color: #22ff00;
+            background-color: red;
+        }
+
+
+        table {
+            background-color: skyblue;
+        }
+
+    </style>
+</head>
+<body>
+<header class="row fixed-top" style="background-color:red; height: 100px; position: fixed" >
+    <div style="margin: 30px;overflow-y: hidden;overflow-x: hidden" class="col-2">
+        <img src="https://www.furama.com/images/LOGOFHI_4C_Reverse.png" height="50px" alt="">
+    </div>
+    <div class="col-lg-7">
+        <img src="https://furamavietnam.com/wp-content/uploads/2019/02/Ariyana-Tourism-Complex-02-2.png"
+             height="100 " alt="">
+    </div>
+</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light row fixed-top" style="margin-top: 100px">
+    <div class="container-fluid text-center" style="margin: 0 10px;">
+        <a class="navbar-brand " href="home.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Customer
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Customer List</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Add new Customer</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Employee
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Employee List</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Add new Employee</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Service
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"href="list_facility.html" >Facility List</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" >Add new Employee</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Contract
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" >Contract List</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Add new Contract</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
