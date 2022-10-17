@@ -1,0 +1,158 @@
+
+#slide {
+  margin: 20px 0;
+  background-color: lightgrey;
+}
+
+.hot-tour-text {
+  text-align: center;
+  padding: 200px 20px 69px;
+  background-color: lightgrey;
+}
+
+.hot-tour-text p {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.hot-tour-text .btn {
+  padding: 11px 32px;
+  font-size: 18px;
+  margin: 8px 4px;
+}
+
+.hot-tour-text .btn-details {
+  padding: 11px 31px;
+  background-color: darkgray;
+  color: #f2f2f2;
+}
+
+
+.hot-tour-text .hot-tour-title {
+  font-size: 55px;
+  font-weight: 100;
+  margin-bottom: 26px;
+  line-height: 1.25em;
+}
+
+
+
+body {
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*height: 2032px;*/
+  background-attachment: fixed;
+}
+
+.btn-top {
+  background-repeat: no-repeat;
+  border: medium none;
+  bottom: 20px;
+  cursor: pointer;
+  display: none;
+  height: 50px;
+  outline: medium none;
+  padding: 0;
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  z-index: 9999;
+}
+
+section {
+  background-color: #505050;
+  height: 300px;
+}
+
+.container {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(https://www.travelvietnam.com/images/photos/asia/vietnam-danang-furama-resort-danang-9.jpg?t=1591900492);
+  background-size: 100%;
+  height: 600px;
+  position: inherit;
+  margin-top: 150px;
+}
+
+.tieu_de {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+pre {
+  text-transform: uppercase;
+  font-family: Algerian;
+}
+
+nav {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.col-2:hover {
+  overflow: scroll;
+  height: 520px;
+}
+
+.col-2 {
+  overflow: auto;
+}
+
+input[type=text], input[type=email], input[type=number], input[type= date], textarea, select {
+  width: 100%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#form {
+  width: 40%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-bottom: 30px;
+}
+
+input[type=submit] {
+  background-color: #22ff00;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#save:hover {
+  color: #22ff00;
+  background-color: red;
+}
+
+
+table {
+  background-color: skyblue;
+}
+
+
