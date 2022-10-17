@@ -1,0 +1,30 @@
+<div class="text-center"><h1>Calculator</h1></div>
+
+<table>
+  <tr>
+    <th>first number:</th>
+    <td><input type="number" id="firstNumber" [(ngModel)]="firstNumber"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <select name="calculate" #cal class="btn btn-primary">
+        <option id="sum" value="+">+</option>
+        <option id="sub" value="-">-</option>
+        <option id="multi" value="*">*</option>
+        <option id="division" value="/">/</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th>second number:</th>
+    <td><input type="number" id="secondNumber" [(ngModel)]="secondNumber"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <button type="button" class="btn btn-success m-2" (click)="calculate(cal.value)">calculate</button>
+    </td>
+  </tr>
+</table>
+<span><h4>Result: {{result}}</h4></span>
