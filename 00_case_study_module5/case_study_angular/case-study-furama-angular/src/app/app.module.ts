@@ -7,6 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FacilityListComponent } from './facility-list/facility-list.component';
+import { EditFacilityListComponent } from './edit-facility-list/edit-facility-list.component';
+import { CreateFacilityListComponent } from './create-facility-list/create-facility-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FacilityListComponent } from './facility-list/facility-list.component';
     FooterComponent,
     HeaderComponent,
     HomeComponent,
-    FacilityListComponent
+    FacilityListComponent,
+    EditFacilityListComponent,
+    CreateFacilityListComponent
   ],
   imports: [
     BrowserModule,

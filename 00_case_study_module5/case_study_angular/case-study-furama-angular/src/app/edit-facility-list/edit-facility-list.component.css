@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: #bad8ff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #bad8ff;
+}
+
+.formCSS {
+  background-color: #6c757d;
+}
+
+body {
+  background-color: #a5b2cb;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+.edit{
+  margin: 150px 0 50px 0;
+}
