@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cce715cd-7735-4800-96eb-c48b5b1a5b63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../04_angular_component_template/practice/parent_to_child/.idea/parent_to-child.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/24847ca6-6a1d-4069-88b5-80e353cebbac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/ab734e10-e4d9-4829-99c7-421e4daa175f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/ai_managers_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/ca9278a0-af3c-4fd1-b3a4-4bf53136a180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/e1edb4e7-5b33-4c3d-a010-e15b628929af.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/f470fd65-3f90-477b-802e-8d84567280b7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/hurry_worry_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/impostor_3_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/inbox_zero_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/Simplify your life_files/teacher_banner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/._Simplify your life.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/._Simplify your life_files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._24847ca6-6a1d-4069-88b5-80e353cebbac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._ab734e10-e4d9-4829-99c7-421e4daa175f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._ai_managers_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._ca9278a0-af3c-4fd1-b3a4-4bf53136a180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._e1edb4e7-5b33-4c3d-a010-e15b628929af.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._f470fd65-3f90-477b-802e-8d84567280b7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._hurry_worry_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._impostor_3_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._inbox_zero_tiny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._teacher_banner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/.idea/case_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/bootstrap413/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/customer/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/customer/customer_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/customer/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/dataTables.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/css/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/dataTables.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/datatables/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/jquery/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/service/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/service/edit_facility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/service/list_facility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/case_study/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/.idea/case_study_angular.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/about-us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/before-you-fly.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/blog-detail-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/blog-detail-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/blog-listing-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/blog-listing-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/booking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/car-detail-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/car-detail-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/car-grid-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/car-grid-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/car-homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/car-listing-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/car-listing-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/coming-soon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/contact-us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cruise-detail-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cruise-detail-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cruise-grid-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cruise-grid-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cruise-homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cruise-listing-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/cruise-listing-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/atomic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/blue-violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/brown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/caribbean-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/egg-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/jquery.colorpanel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/lightblue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/owl.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/pigment-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/preview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/error-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/flight-detail-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/flight-detail-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/flight-grid-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/flight-grid-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/flight-homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/flight-listing-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/flight-listing-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/PlayfairDisplay-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/PlayfairDisplay-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/PlayfairDisplay-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/PlayfairDisplay-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/PlayfairDisplay-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/PlayfairDisplay-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/forgot-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/holidays.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/hotel-detail-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/hotel-detail-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/hotel-grid-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/hotel-grid-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/hotel-homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/hotel-listing-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/hotel-listing-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/about-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-room-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-room-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-room-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-room-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-seat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-seat-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-seat-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/available-seat-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/best-offer-cruise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/blog-listing-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/blog-listing-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/blog-listing-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/byf-airport-info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/byf-baggage-info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/byf-check-in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/byf-visa-passport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-detail-tab-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-detail-tab-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-detail-tab-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-feature-thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-grid-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-grid-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-grid-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-grid-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-grid-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-grid-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-list-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-list-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-list-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-list-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-list-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-list-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-packages.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/car-slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/client-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/client-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/client-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/coming-soon-page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/commenter-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/commenter-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/commenter-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/commenter-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/contact-form.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-about-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-blog-details.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-blog-listing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-byf-info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-car-detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-car-grid-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-contact-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-cruise-detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-cruise-grid-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-flight-detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-flight-grid-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-forgot-password.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-holiday.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-hotel-detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-hotel-grid-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-registration.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-thank-you.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-tour-detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-tour-grid-list.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cover-travel-insurance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/crs-feature-thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-detail-tab-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-detail-tab-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-detail-tab-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-detail-tab-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-grid-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-grid-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-grid-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-grid-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-grid-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-grid-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-list-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-list-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-list-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-list-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-list-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-list-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/cruise-slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/destination-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/destination-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/destination-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/destination-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/error-page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/f-feature-thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-detail-tab-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-detail-tab-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-detail-tab-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-detail-tab-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-detail-tab-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/flight-testimonials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/forgot-password.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/ftr-instagram-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/ftr-instagram-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/ftr-instagram-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/ftr-instagram-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/ftr-instagram-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/ftr-instagram-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/h-feature-thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/highlights.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/holiday-deal-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/holiday-deal-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/holiday-deal-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/homepage-slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/homepage-slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hot-tour-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hot-tour-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-detail-tab-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-detail-tab-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-detail-tab-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-detail-tab-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-detail-tab-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-grid-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-grid-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-grid-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-grid-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-grid-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-grid-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-offers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/hotel-slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/landing-slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/landing-slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/latest-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/latest-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/latest-blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-atomic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-caribbean-green.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-eggblue.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-green.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-lightblue.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-orange.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-purple.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/loader-red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/luxury-car.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/luxury-room-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/luxury-room-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/luxury-room-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/luxury-room-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/master-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/megamenu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/message-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/newsletter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/payment-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/payment-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/payment-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/payment-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/payment-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/recent-post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/recent-post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/recent-post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/registration.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/reviewer-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/reviewer-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/reviewer-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/sidebar-insta-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/skills.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-thumb-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-thumb-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-thumb-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-thumb-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/t-feature-thumb-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/team-member-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/team-member-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/team-member-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/team-member-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/team-member-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/testimonials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-detail-tab-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-detail-tab-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-detail-tab-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-grid-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-grid-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-grid-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-grid-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-grid-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-grid-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-list-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-list-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-list-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-list-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-list-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-list-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-offers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/tour-testimonials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/travel-insurance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-africa-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-africa-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-africa-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-africa-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-malaysia-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-malaysia-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-malaysia-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/trip-malaysia-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/user-profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/vehicle-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/vehicle-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/vehicle-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/video-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/images/wishlist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-date-picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-flex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-price-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/custom-video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/jquery.colorpanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/jquery.flexslider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/landing-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/thank-you.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/tour-detail-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/tour-detail-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/tour-grid-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/tour-grid-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/tour-homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/tour-listing-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/tour-listing-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/travel-insurance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/user-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_module5/layout/wishlist.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GOeRBmADQCWO82hl7gWwS3qBjI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/module5/06_angualar_form/exercise",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\codegym\\module5\\06_angualar_form\\exercise\\registration_form\\registration-form\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cce715cd-7735-4800-96eb-c48b5b1a5b63" name="Changes" comment="" />
+      <created>1666264046997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666264046997</updated>
+      <workItem from="1666264048441" duration="1746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

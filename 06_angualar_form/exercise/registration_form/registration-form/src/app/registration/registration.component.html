@@ -1,0 +1,104 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" formControlName="email">
+    <p class="text-danger"
+       *ngIf="!contactForm.controls.email?.valid && (contactForm.controls.email?.dirty
+    ||contactForm.controls.email?.touched)">
+      Email is not valid and enter the correct format xxxx@xxx.xxx
+    </p>
+  </div>
+
+
+  <div formGroupName="passwordGroup">
+    <div>
+      <label for="password">PassWord </label>
+      <input type="password" id="password" name="password" formControlName="password">
+      <p class="text-danger"
+         *ngIf="contactForm.get('passwordGroup').hasError('required','password')
+          && contactForm.get('passwordGroup').get('password').touched">
+        password is not valid
+      </p>
+
+      <p class="text-danger"
+         *ngIf="contactForm.get('passwordGroup').hasError('minlength','password')
+          && contactForm.get('passwordGroup').get('password').dirty">
+        Password must be at least 6 characters
+      </p>
+    </div>
+
+
+    <div>
+      <label for="confirmPassword">Confirm Password </label>
+      <input type="password" id="confirmPassword" name="confirmPassword" formControlName="confirmPassword">
+      <p class="text-danger"
+         *ngIf="contactForm.get('passwordGroup').hasError('notSame') && contactForm.get('passwordGroup').touched">
+        confirmPassword is not same password
+      </p>
+
+      <p class="text-danger"
+         *ngIf="contactForm.get('passwordGroup').hasError('minlength','confirmPassword')
+          && contactForm.get('passwordGroup').get('confirmPassword').touched">
+        ConfirmPassword must be at least 6 characters
+      </p>
+    </div>
+  </div>
+
+
+  <div>
+    <label for="country">country </label>
+    <select id="country" formControlName="country">
+      <option *ngFor="let c of countryList" [ngValue]="c.name">{{c.name}}</option>
+    </select>
+
+    <p class="text-danger"
+       *ngIf="!contactForm.controls.country?.valid && (contactForm.controls.country?.dirty
+    ||contactForm.controls.country?.touched)">
+      country is not valid
+    </p>
+  </div>
+
+  <div>
+    <label for="age">Age </label>
+    <input type="number" id="age" name="age" formControlName="age">
+
+    <p class="text-danger"
+       *ngIf="!contactForm.controls.age?.valid && (contactForm.controls.age?.dirty
+    ||contactForm.controls.age?.touched)">
+      age is not valid and must be over 18 years old.
+    </p>
+  </div>
+
+  <div>
+    <label>Gender </label>
+    <input type="radio" value="male" name="gender" formControlName="gender"> Male
+    <input type="radio" value="female" name="gender" formControlName="gender"> Female
+    <input type="radio" value="female" name="gender" formControlName="gender"> LGBT
+
+    <p class="text-danger"
+       *ngIf="!contactForm.controls.gender?.valid && (contactForm.controls.gender?.pristine
+    ||contactForm.controls.gender?.touched)">
+      gender is not valid
+    </p>
+  </div>
+
+
+  <div>
+    <label for="phone">Phone </label>
+    <input type="text" id="phone" name="phone" formControlName="phone">
+
+    <p class="text-danger"
+       *ngIf="!contactForm.controls.phone?.valid && (contactForm.controls.phone?.dirty
+    ||contactForm.controls.phone?.touched)">
+      phone is not valid and enter the correct format +84xxxxxxxxx
+    </p>
+  </div>
+
+
+  <div id="submit">
+    <p>
+      <button type="submit" [disabled]="!contactForm.valid">Submit</button>
+    </p>
+  </div>
+</form>
+<p></p>

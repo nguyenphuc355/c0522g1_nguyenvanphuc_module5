@@ -1,0 +1,34 @@
+<form [formGroup]="loginFormGroup" (ngSubmit)="onSubmit()">
+  <div id="head"><h1>Login Form</h1></div>
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" formControlName="email">
+    <p class="text-danger"
+       *ngIf="loginFormGroup.controls.email.hasError('required') && loginFormGroup.controls.email.dirty">
+      Email is not valid
+    </p>
+    <p class="text-danger"
+       *ngIf="loginFormGroup.controls.email.hasError('email') && loginFormGroup.controls.email.dirty">
+      Enter the correct format xxxx@xxx.xxx
+    </p>
+  </div>
+  <div>
+    <label for="password">PassWord </label>
+    <input type="password" id="password" name="password" formControlName="password">
+    <p *ngIf="loginFormGroup.controls.password.hasError('required') && loginFormGroup.controls.password.dirty">
+      password not valid
+    </p>
+
+    <p class=" text-danger"
+       *ngIf="loginFormGroup.controls.password.hasError('minlength')
+    && loginFormGroup.controls.password.dirty">
+      Password must be at least 6 characters
+    </p>
+  </div>
+  <div id="submit">
+    <p>
+      <button type="submit" [disabled]="!loginFormGroup.valid">Submit</button>
+    </p>
+  </div>
+</form>
+
