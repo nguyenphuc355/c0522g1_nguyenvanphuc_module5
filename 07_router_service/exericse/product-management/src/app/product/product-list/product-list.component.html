@@ -1,17 +1,19 @@
 <h1>Danh sách sản phẩm</h1>
-<table class=" table">
-  <tr>
+<a routerLink="/product/create">Tạo mới sản phẩm</a>
+<table class="table table-striped">
+  <tr class="bg-primary">
     <th>STT</th>
     <th>Tên</th>
     <th>Giá</th>
     <th>Mô tả</th>
-    <th>Edit</th>
+    <th colspan="2"></th>
   </tr>
-  <tr *ngFor="let product of product; index as i">
+  <tr *ngFor="let product of products; index as i">
     <td>{{i + 1}}</td>
     <td>{{product.name}}</td>
     <td>{{product.price}}</td>
     <td>{{product.description}}</td>
-    <td><a routerLink="edit/{{product.id}}">Edit</a></td>
+    <td><a [routerLink]="['/product/edit',product.id]">Edit</a></td>
+    <td><a [routerLink]="['/product/delete',product.id]">Delete</a></td>
   </tr>
 </table>

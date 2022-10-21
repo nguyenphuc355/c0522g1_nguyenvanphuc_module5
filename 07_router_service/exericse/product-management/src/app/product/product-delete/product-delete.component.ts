@@ -4,21 +4,21 @@ import {ProductService} from '../../service/product.service';
 import {ActivatedRoute, ParamMap, Router} from '@angular/router';
 
 @Component({
-  selector: 'app-edit-product',
-  templateUrl: './edit-product.component.html',
-  styleUrls: ['./edit-product.component.css']
+  selector: 'app-product-delete',
+  templateUrl: './product-delete.component.html',
+  styleUrls: ['./product-delete.component.css']
 })
-export class EditProductComponent implements OnInit {
+export class ProductDeleteComponent implements OnInit {
 
   productForm: FormGroup;
-  productId: number;
+  id: number;
 
   constructor(private productService: ProductService,
               private activatedRoute: ActivatedRoute,
               private router: Router) {
     this.activatedRoute.paramMap.subscribe((paramMap: ParamMap) => {
-      this.productId = +paramMap.get('id');
-      const product = this.getProduct(this.productId);
+      this.id = +paramMap.get('id');
+      const product = this.getProduct(this.id);
       this.productForm = new FormGroup({
         id: new FormControl(product.id),
         name: new FormControl(product.name),
@@ -28,17 +28,15 @@ export class EditProductComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
   getProduct(id: number) {
     return this.productService.findById(id);
   }
 
-  updateProduct(id: number) {
-    const product = this.productForm.value;
-    this.productService.updateProduct(id, product);
-    alert('Cập nhật thành công');
-    this.router.navigateByUrl('');
+  deleteProduct(id: number) {
+    this.productService.deleteProduct(id);
+    this.router.navigate(['/product/list']);
   }
 }
