@@ -1,0 +1,17 @@
+<div class="text-center"><h1>Dictionary Lits</h1></div>
+<table class="table table-striped">
+  <tr>
+    <th>#</th>
+    <th>Word</th>
+    <th>Mean</th>
+    <th>Detail</th>
+  </tr>
+  <tr *ngFor="let item of dictionaryList;index as i ">
+    <td>{{i + 1}}</td>
+    <td>{{item.word}}</td>
+    <td>{{item.mean}}</td>
+    <td>
+      <a routerLink="/detail/{{item.word}}">detail</a>
+    </td>
+  </tr>
+</table>
