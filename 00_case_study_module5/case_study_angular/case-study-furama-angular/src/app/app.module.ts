@@ -6,14 +6,14 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
-import { FacilityListComponent } from './facility-list/facility-list.component';
-import { EditFacilityListComponent } from './edit-facility-list/edit-facility-list.component';
-import { CreateFacilityListComponent } from './create-facility-list/create-facility-list.component';
-import { CustomerListComponent } from './customer-list/customer-list.component';
-import { EditCustomerComponent } from './edit-customer/edit-customer.component';
-import { CreateCustomerComponent } from './create-customer/create-customer.component';
-import { ContratListComponent } from './contrat-list/contrat-list.component';
-import { CreateContractComponent } from './create-contract/create-contract.component';
+import { FacilityListComponent } from './facility/facility-list/facility-list.component';
+import { EditFacilityListComponent } from './facility/edit-facility-list/edit-facility-list.component';
+import { CreateFacilityListComponent } from './facility/create-facility-list/create-facility-list.component';
+import { CustomerListComponent } from './customer/customer-list/customer-list.component';
+import { EditCustomerComponent } from './customer/edit-customer/edit-customer.component';
+import { CreateCustomerComponent } from './customer/create-customer/create-customer.component';
+import { ContratListComponent } from './contract/contrat-list/contrat-list.component';
+import { CreateContractComponent } from './contract/create-contract/create-contract.component';
 
 @NgModule({
   declarations: [
