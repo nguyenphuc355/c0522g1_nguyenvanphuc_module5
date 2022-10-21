@@ -1,7 +1,6 @@
 #header{
   background-color: #cccccc;
   height: 100px;
-  position: fixed;
   margin-left: 0;
 }
 #img{
@@ -9,12 +8,16 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
-.navbar{
-  margin-top: 100px;
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 #home{
   margin: 0 30px;
   padding: 0;
 }
+.header{
 
+}
 

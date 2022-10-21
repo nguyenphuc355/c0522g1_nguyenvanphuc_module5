@@ -1,19 +1,7 @@
-<div class="p-3">
-  <div class="text-center text-light" style="margin-top: 150px">
-    <button class="btn btn-success" style="background-color:#595C99;color: #FFFA24"><h1>Contract List</h1></button>
-  </div>
-  <div class="row" style="margin: 30px 10px">
-    <div class="container-fluid">
-      <button class="btn btn-primary btn-outline-secondary btn-sm" data-bs-toggle="modal"
-              data-bs-target="#addContract">
-        <span class="fa-solid fa-person-circle-plus text-light h5 my-auto me-1"></span>
-        <a href="http://localhost:63342/case_study/contract/create.html?">
-          <span class="text-light">Add New Contract</span>
-        </a>
-      </button>
-    </div>
-  </div>
-<table class="table  table-striped table-bordered" id="contractTable">
+<div class="text-center text-light" id="header">
+  <button class="btn btn-success"><h1>Contract List</h1></button>
+</div>
+<table class="table  table-bordered" id="contractTable">
   <thead>
   <tr class="bg-primary text-center">
     <th class="text-center">#</th>
@@ -38,15 +26,10 @@
     <td>120000</td>
     <td>1000000</td>
     <td class="text-center">
-      <button onclick=addContractDetail('${contract.contractId}')
-              class="btn btn-primary btn-outline-secondary btn-sm" data-bs-toggle="modal"
-              data-bs-target="#addContractDetail">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="fa-solid fa-plus text-light h6 m-auto"></span>
       </button>
-
-      <button onclick=showAttachFacility()
-              class="btn btn-primary btn-outline-secondary btn-sm ms-3 px-3" data-bs-toggle="modal"
-              data-bs-target="#showAttachFacility">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="text-light m-auto">The list of services</span>
       </button>
     </td>
@@ -61,15 +44,10 @@
     <td>120000</td>
     <td>1000000</td>
     <td class="text-center">
-      <button onclick=addContractDetail('${contract.contractId}')
-              class="btn btn-primary btn-outline-secondary btn-sm" data-bs-toggle="modal"
-              data-bs-target="#addContractDetail">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="fa-solid fa-plus text-light h6 m-auto"></span>
       </button>
-
-      <button onclick=showAttachFacility()
-              class="btn btn-primary btn-outline-secondary btn-sm ms-3 px-3" data-bs-toggle="modal"
-              data-bs-target="#showAttachFacility">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="text-light m-auto">The list of services</span>
       </button>
     </td>
@@ -84,15 +62,10 @@
     <td>120000</td>
     <td>1000000</td>
     <td class="text-center">
-      <button onclick=addContractDetail('${contract.contractId}')
-              class="btn btn-primary btn-outline-secondary btn-sm" data-bs-toggle="modal"
-              data-bs-target="#addContractDetail">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="fa-solid fa-plus text-light h6 m-auto"></span>
       </button>
-
-      <button onclick=showAttachFacility()
-              class="btn btn-primary btn-outline-secondary btn-sm ms-3 px-3" data-bs-toggle="modal"
-              data-bs-target="#showAttachFacility">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="text-light m-auto">The list of services</span>
       </button>
     </td>
@@ -107,15 +80,10 @@
     <td>120000</td>
     <td>1000000</td>
     <td class="text-center">
-      <button onclick=addContractDetail('${contract.contractId}')
-              class="btn btn-primary btn-outline-secondary btn-sm" data-bs-toggle="modal"
-              data-bs-target="#addContractDetail">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="fa-solid fa-plus text-light h6 m-auto"></span>
       </button>
-
-      <button onclick=showAttachFacility()
-              class="btn btn-primary btn-outline-secondary btn-sm ms-3 px-3" data-bs-toggle="modal"
-              data-bs-target="#showAttachFacility">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="text-light m-auto">The list of services</span>
       </button>
     </td>
@@ -130,15 +98,10 @@
     <td>120000</td>
     <td>1000000</td>
     <td class="text-center">
-      <button onclick=addContractDetail('${contract.contractId}')
-              class="btn btn-primary btn-outline-secondary btn-sm" data-bs-toggle="modal"
-              data-bs-target="#addContractDetail">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="fa-solid fa-plus text-light h6 m-auto"></span>
       </button>
-
-      <button onclick=showAttachFacility()
-              class="btn btn-primary btn-outline-secondary btn-sm ms-3 px-3" data-bs-toggle="modal"
-              data-bs-target="#showAttachFacility">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="text-light m-auto">The list of services</span>
       </button>
     </td>
@@ -153,15 +116,64 @@
     <td>120000</td>
     <td>1000000</td>
     <td class="text-center">
-      <button onclick=addContractDetail('${contract.contractId}')
-              class="btn btn-primary btn-outline-secondary btn-sm" data-bs-toggle="modal"
-              data-bs-target="#addContractDetail">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="fa-solid fa-plus text-light h6 m-auto"></span>
       </button>
-
-      <button onclick=showAttachFacility()
-              class="btn btn-primary btn-outline-secondary btn-sm ms-3 px-3" data-bs-toggle="modal"
-              data-bs-target="#showAttachFacility">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
+        <span class="text-light m-auto">The list of services</span>
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Villa Beach Front</td>
+    <td>Nguyễn Văn Phúc</td>
+    <td>Trương Đình Nghệ</td>
+    <td>2022-10-28</td>
+    <td>2022-10-29</td>
+    <td>120000</td>
+    <td>1000000</td>
+    <td class="text-center">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
+        <span class="fa-solid fa-plus text-light h6 m-auto"></span>
+      </button>
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
+        <span class="text-light m-auto">The list of services</span>
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Villa Beach Front</td>
+    <td>Nguyễn Văn Phúc</td>
+    <td>Trương Đình Nghệ</td>
+    <td>2022-10-28</td>
+    <td>2022-10-29</td>
+    <td>120000</td>
+    <td>1000000</td>
+    <td class="text-center">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
+        <span class="fa-solid fa-plus text-light h6 m-auto"></span>
+      </button>
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
+        <span class="text-light m-auto">The list of services</span>
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Villa Beach Front</td>
+    <td>Nguyễn Văn Phúc</td>
+    <td>Trương Đình Nghệ</td>
+    <td>2022-10-28</td>
+    <td>2022-10-29</td>
+    <td>120000</td>
+    <td>1000000</td>
+    <td class="text-center">
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
+        <span class="fa-solid fa-plus text-light h6 m-auto"></span>
+      </button>
+      <button class="btn btn-primary btn-outline-secondary btn-sm">
         <span class="text-light m-auto">The list of services</span>
       </button>
     </td>
