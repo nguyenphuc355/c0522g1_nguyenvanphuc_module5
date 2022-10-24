@@ -1,0 +1,82 @@
+{
+  "product": [
+    {
+      "id": 3,
+      "name": "IPhone X",
+      "price": 968000,
+      "description": "97%",
+      "category": {
+        "id": 1,
+        "name": "apple"
+      }
+    },
+    {
+      "id": 4,
+      "name": "IPhone 8",
+      "price": 7540000,
+      "description": "98%",
+      "category": {
+        "id": 1,
+        "name": "apple"
+      }
+    },
+    {
+      "id": 5,
+      "name": "IPhone 11 promax",
+      "price": 1895000,
+      "description": "Like new",
+      "category": {
+        "id": 1,
+        "name": "apple"
+      }
+    },
+    {
+      "id": 1,
+      "name": "oppo",
+      "price": 12000000,
+      "description": "new",
+      "category": {
+        "id": 2,
+        "name": "oppo"
+      }
+    },
+    {
+      "name": "samsung",
+      "price": 20000000,
+      "description": "99%",
+      "id": 6,
+      "category": {
+        "id": 3,
+        "name": "samsung"
+      }
+    },
+    {
+      "name": "sangsung A30",
+      "price": 10000000,
+      "description": "new ",
+      "category": {
+        "id": 31,
+        "name": "samsung"
+      },
+      "id": 7
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "apple"
+    },
+    {
+      "id": 2,
+      "name": "oppo"
+    },
+    {
+      "id": 31,
+      "name": "samsung"
+    },
+    {
+      "name": "vertu",
+      "id": 32
+    }
+  ]
+}
