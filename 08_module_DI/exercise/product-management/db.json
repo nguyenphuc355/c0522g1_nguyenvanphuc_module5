@@ -1,0 +1,46 @@
+{
+  "product": [
+    {
+      "id": 4,
+      "name": "IPhone 8",
+      "price": 7540000,
+      "description": "98%",
+      "category": {
+        "id": 1,
+        "name": "apple"
+      }
+    },
+    {
+      "name": "samsung note 20 ultra",
+      "price": 26000000,
+      "description": "new",
+      "category": {
+        "id": 31,
+        "name": "samsung"
+      },
+      "id": 5
+    }
+  ],
+  "category": [
+    {
+      "name": "Apple",
+      "id": 1
+    },
+    {
+      "id": 31,
+      "name": "samsung"
+    },
+    {
+      "name": "oppo",
+      "id": 32
+    },
+    {
+      "name": "vertu",
+      "id": 33
+    },
+    {
+      "name": "nokia",
+      "id": 34
+    }
+  ]
+}
