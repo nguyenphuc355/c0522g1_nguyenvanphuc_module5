@@ -29,19 +29,6 @@ export class ProductListComponent implements OnInit {
     }, () => {
     });
   }
-
-  // onDelete(id: number, name: string) {
-  //   if (confirm('Bạn có muốn xóa: ' + name + ' ???')) {
-  //     this.productService.deleteProduct(id, name).subscribe(value => {
-  //       this.ngOnInit();
-  //     }, error => {
-  //     }, () => {
-  //       this.router.navigateByUrl('/product/list');
-  //     });
-  //   }
-  // }
-
-
   getInfoProductDelete(name: string, id: number) {
     this.productNameDelete = name;
     this.productIdDelete = id;
@@ -50,11 +37,10 @@ export class ProductListComponent implements OnInit {
   deleteProduct(): void {
     this.productService.deleteProduct(this.productIdDelete).subscribe(() => {
       this.ngOnInit();
-      this.mess = 'Xóa khách hàng  [' + this.productNameDelete + '] thành công!';
+      this.mess = 'Xóa sản phẩm  [' + this.productNameDelete + '] thành công!';
     }, error => {
       console.log(error);
     }, () => {
-      console.log('Xóa khách hàng thành công!');
     });
   }
 
@@ -64,7 +50,6 @@ export class ProductListComponent implements OnInit {
     }, error => {
       console.log(error);
     }, () => {
-      console.log('Tìm kiếm khách hàng có tên là: "' + this.productNameSearch + '" (có ' + this.product.length + ' kết quả).');
     });
   }
 }

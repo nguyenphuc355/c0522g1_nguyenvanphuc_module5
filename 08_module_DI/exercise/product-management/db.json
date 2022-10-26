@@ -19,6 +19,26 @@
         "name": "samsung"
       },
       "id": 5
+    },
+    {
+      "name": "oppo reno6",
+      "price": 12000000,
+      "description": "new 100%",
+      "category": {
+        "name": "oppo",
+        "id": 32
+      },
+      "id": 6
+    },
+    {
+      "name": "iphone 13 promax",
+      "price": 30000000,
+      "description": "new",
+      "category": {
+        "name": "Apple",
+        "id": 1
+      },
+      "id": 7
     }
   ],
   "category": [
