@@ -21,24 +21,44 @@
       "id": 5
     },
     {
-      "name": "oppo reno6",
-      "price": 12000000,
-      "description": "new 100%",
-      "category": {
-        "name": "oppo",
-        "id": 32
-      },
-      "id": 6
-    },
-    {
       "name": "iphone 13 promax",
-      "price": 30000000,
-      "description": "new",
+      "price": 25000000,
+      "description": "new ",
       "category": {
         "name": "Apple",
         "id": 1
       },
+      "id": 6
+    },
+    {
+      "name": "samsung a30",
+      "price": 15000000,
+      "description": "new",
+      "category": {
+        "id": 31,
+        "name": "samsung"
+      },
       "id": 7
+    },
+    {
+      "name": "vertu",
+      "price": 50000000,
+      "description": "new",
+      "category": {
+        "name": "vertu",
+        "id": 33
+      },
+      "id": 8
+    },
+    {
+      "name": "nokia 7",
+      "price": 17000000,
+      "description": "new",
+      "category": {
+        "name": "nokia",
+        "id": 34
+      },
+      "id": 9
     }
   ],
   "category": [

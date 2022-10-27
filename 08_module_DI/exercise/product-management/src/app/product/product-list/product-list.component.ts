@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Product} from '../../model/product';
 import {ProductService} from '../../service/product.service';
 import {Router} from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-product-list',
@@ -29,6 +30,7 @@ export class ProductListComponent implements OnInit {
     }, () => {
     });
   }
+
   getInfoProductDelete(name: string, id: number) {
     this.productNameDelete = name;
     this.productIdDelete = id;
@@ -36,8 +38,14 @@ export class ProductListComponent implements OnInit {
 
   deleteProduct(): void {
     this.productService.deleteProduct(this.productIdDelete).subscribe(() => {
+      Swal.fire({
+        title: 'Xóa thành công!',
+        text: 'Sản phẩm :' + this.productNameDelete,
+        imageUrl: 'https://genk.mediacdn.vn/2018/9/20/a2989534790f069f03671d247dd5222b-15374152422351400600667.gif',
+        imageHeight: 250,
+        imageWidth: 400
+      });
       this.ngOnInit();
-      this.mess = 'Xóa sản phẩm  [' + this.productNameDelete + '] thành công!';
     }, error => {
       console.log(error);
     }, () => {

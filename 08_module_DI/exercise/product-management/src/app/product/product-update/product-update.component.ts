@@ -5,6 +5,7 @@ import {Category} from '../../model/category';
 import {CategoryService} from '../../service/category.service';
 import {ProductService} from 'src/app/service/product.service';
 import {ActivatedRoute, Router} from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-product-update',
@@ -49,7 +50,14 @@ export class ProductUpdateComponent implements OnInit {
     const product = this.productForm.value;
     product.id = this.product.id;
     this.productService.saveProduct(product).subscribe(value => {
-      alert('cập nhật thành công');
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Cập nhật thành công!',
+        text: 'Sản phẩm:' + product.name,
+        showConfirmButton: false,
+        timer: 2000
+      });
     }, error => {
 
     }, () => {

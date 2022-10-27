@@ -3,13 +3,10 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {RoutingModule} from './shared/routing.module';
-import {NavbarComponent} from './shared/navbar/navbar.component';
-import {CategoryListComponent} from './category/category-list/category-list.component';
 import {SharedModule} from './shared/shared.module';
-import {ProductModule} from './product/product.module';
-import {ProductListComponent} from './product/product-list/product-list.component';
 import {HttpClientModule} from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +16,8 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
