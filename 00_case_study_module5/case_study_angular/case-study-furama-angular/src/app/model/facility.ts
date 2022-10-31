@@ -1,3 +1,6 @@
+import {RenType} from './ren-type';
+import {FacilityType} from './facility-type';
+
 export interface Facility {
   id: number;
   name: string;
@@ -9,6 +12,7 @@ export interface Facility {
   poolArea: number;
   numberOfFloors: number;
   facilityFree: string;
-  facilityType: string;
-  renType: string;
+  facilityType: FacilityType;
+  renType?: RenType;
+  facilityImage?: string;
 }
