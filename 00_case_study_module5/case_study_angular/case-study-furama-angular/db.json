@@ -1,0 +1,96 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn Phúc",
+      "dateOfBirth": "1998-12-05",
+      "gender": 1,
+      "idCard": "187658129",
+      "phoneNumber": "0326820571",
+      "email": "nguyenvanphuca9999@gmail.com",
+      "address": "Nghe An",
+      "customerType": {
+        "id": 1,
+        "name": "Diamond"
+      }
+    },
+    {
+      "name": "Nguyễn Văn Phúc",
+      "dateOfBirth": "1998-12-05",
+      "gender": 0,
+      "idCard": "965656433",
+      "phoneNumber": "0326820571",
+      "email": "nguyenvanphuct035512@gmail.com",
+      "address": "295 Nguyễn Tất Thành, Đà Nẵng",
+      "customerType": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "id": 2
+    },
+    {
+      "name": "Nguyễn Văn Phúc a",
+      "dateOfBirth": "1999-03-24",
+      "gender": 0,
+      "idCard": "187658129",
+      "phoneNumber": "0326820571",
+      "email": "nguyenvanphuca9999@gmail.com",
+      "address": "K77/22 Thái Phiên, Quảng Trị",
+      "customerType": {
+        "id": 3,
+        "name": "Gold"
+      },
+      "id": 3
+    },
+    {
+      "name": "Hồ Thị Thủy Lợi",
+      "dateOfBirth": "1997-12-12",
+      "gender": 0,
+      "idCard": "965656433",
+      "phoneNumber": "+84326820571",
+      "email": "HoThiThuyLoi@gmail.com",
+      "address": "K77/22 Thái Phiên, Quảng Trị",
+      "customerType": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "id": 4
+    },
+    {
+      "name": "huyỳnh văn nam",
+      "dateOfBirth": "1993-11-12",
+      "gender": 0,
+      "idCard": "965656433",
+      "phoneNumber": "0326820571",
+      "email": "TrungThuyen@gmail.com",
+      "address": "295 Nguyễn Tất Thành, Đà Nẵng",
+      "customerType": {
+        "id": 2,
+        "name": "Platinum"
+      },
+      "id": 5
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinum"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Member"
+    }
+  ]
+}
