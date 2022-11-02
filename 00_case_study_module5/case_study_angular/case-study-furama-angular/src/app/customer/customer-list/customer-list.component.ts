@@ -49,7 +49,7 @@ export class CustomerListComponent implements OnInit {
 
       Swal.fire({
         title: 'Xóa thành công!',
-        text: 'Sản phẩm :' + this.customerNameDelete,
+        text: 'khách hàng :' + this.customerNameDelete,
         imageUrl: 'https://genk.mediacdn.vn/2018/9/20/a2989534790f069f03671d247dd5222b-15374152422351400600667.gif',
         imageHeight: 250,
         imageWidth: 400
