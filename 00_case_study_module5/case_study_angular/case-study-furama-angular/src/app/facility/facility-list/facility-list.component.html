@@ -14,7 +14,7 @@
         <div class="d-flex my-2" role="search">
           <input class="form-control me-2" type="text" placeholder="Nhập tên dịch vụ.." aria-label="Search"
                  [(ngModel)]="facilityNameSearch">
-          <button class="btn btn-light btn-outline-primary" (click)="searchName()">
+          <button class="btn btn-light btn-outline-primary" id="search" (click)="searchName()">
             <i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
       </div>
@@ -36,7 +36,7 @@
               </div>
               <div class="col-sm-6">
                 <span class="card-text">Số người tối đa: {{item.maxPeople}}</span><br>
-                <span class="card-text">Kiểu thuê: {{item.renType.name}}</span>
+<!--                <span class="card-text">Kiểu thuê: {{item.renType.name}}</span>-->
               </div>
             </div>
             <a routerLink="/facility/edit/{{item.id}}" class="me-2">

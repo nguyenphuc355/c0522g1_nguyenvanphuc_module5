@@ -5,6 +5,7 @@ import {CustomerType} from '../../model/customer-type';
 import {CustomerService} from '../../service/customer.service';
 import {CustomerTypeService} from '../../service/customer-type.service';
 import {ActivatedRoute, Router} from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-edit-customer',
@@ -45,15 +46,31 @@ export class EditCustomerComponent implements OnInit {
       customerType: new FormControl('', Validators.required),
     });
   }
-  updateCustomer(): void {
-    const product = this.customerForm.value;
-    product.id = this.customerList.id;
-    this.customerService.updateCustomer(product).subscribe(value => {
-      alert('cập nhật thành công');
+
+  updateCustomer(id: number): void {
+    const customer = this.customerForm.value;
+    customer.id = this.customerList.id;
+    this.customerService.updateCustomer(id, customer).subscribe(value => {
+      Swal.fire({
+        icon: 'success',
+        title: 'Chỉnh sửa thành công!',
+        text: 'Khách hàng: ' + customer.customerName,
+        width: 600,
+        padding: '3em',
+        color: '#716add',
+        background: '#fff url(/images/trees.png)',
+        backdrop: `
+        rgba(0,0,123,0.4)
+        url("/images/nyan-cat.gif")
+        left top
+        no-repeat
+      `
+      });
+      this.router.navigateByUrl('/customers');
     }, error => {
 
     }, () => {
-      this.router.navigateByUrl('/customer');
+
     });
   }
 

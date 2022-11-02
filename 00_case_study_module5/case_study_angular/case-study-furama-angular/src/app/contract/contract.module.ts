@@ -1,7 +1,11 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {CreateContractComponent} from './create-contract/create-contract.component';
 import {ContractListComponent} from './contrat-list/contract-list.component';
+import {RoutingModule} from './routing.module';
+import {ReactiveFormsModule} from '@angular/forms';
+import {RouterModule} from '@angular/router';
+import {CreateContractComponent} from './create-contract/create-contract.component';
+
 
 
 @NgModule({
@@ -10,7 +14,10 @@ import {ContractListComponent} from './contrat-list/contract-list.component';
     ContractListComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RoutingModule,
+    ReactiveFormsModule,
+    RouterModule
   ]
 })
 export class ContractModule {

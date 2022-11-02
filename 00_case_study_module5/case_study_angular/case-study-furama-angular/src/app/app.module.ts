@@ -6,14 +6,12 @@ import {AppComponent} from './app.component';
 import {FooterComponent} from './footer/footer.component';
 import {HeaderComponent} from './header/header.component';
 import {HomeComponent} from './home/home.component';
-import {FacilityListComponent} from './facility/facility-list/facility-list.component';
-import {EditFacilityListComponent} from './facility/edit-facility-list/edit-facility-list.component';
-import {CreateFacilityListComponent} from './facility/create-facility-list/create-facility-list.component';
-import {ContractListComponent} from './contract/contrat-list/contract-list.component';
-import {CreateContractComponent} from './contract/create-contract/create-contract.component';
 import {RoutingModule} from './customer/routing.module';
 import {HttpClientModule} from '@angular/common/http';
 import {CustomerModule} from './customer/customer.module';
+import {ContractModule} from './contract/contract.module';
+import {FacilityModule} from './facility/facility.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -27,7 +25,9 @@ import {CustomerModule} from './customer/customer.module';
     AppRoutingModule,
     RoutingModule,
     HttpClientModule,
-    CustomerModule
+    CustomerModule,
+    ContractModule
+    , FacilityModule, NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

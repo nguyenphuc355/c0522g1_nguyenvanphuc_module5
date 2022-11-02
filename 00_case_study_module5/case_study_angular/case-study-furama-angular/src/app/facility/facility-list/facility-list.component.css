@@ -5,3 +5,8 @@
 .list{
   margin-top: 150px;
 }
+#search{
+  height: 50px;
+  width: 100px;
+  margin-top: 7px;
+}

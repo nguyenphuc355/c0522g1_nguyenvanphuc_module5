@@ -35,6 +35,7 @@ export class FacilityListComponent implements OnInit {
     this.facilityService.findFacilitySearchPaging(this.numberRecord, this.curPage,
       this.facilityNameSearch).subscribe(pagingList => {
       this.facilityListPaging = pagingList;
+      console.log(this.facilityListPaging);
     }, error => {
       console.log(error);
     }, () => {

@@ -9,7 +9,7 @@
   List</a></div>
 <div class="d-flex justify-content-center">
   <form class="w-50 border border-2 border-success p-3 rounded formCSS" novalidate="novalidate"
-        [formGroup]="customerForm" (ngSubmit)="updateCustomer()">
+        [formGroup]="customerForm" (ngSubmit)="updateCustomer(customerId)">
     <div class="form-group">
       <label for="name" class="h6">Tên khách hàng:</label>
       <div class="alert alert-danger" role="alert"
@@ -46,19 +46,18 @@
         Vui lòng chọn giới tính!
       </div>
       <div class="d-flex">
-        <label class="d-block me-4">
+        <label class="d-block me-4" for="male">
           <input class="form-check-input" type="radio" id="male" [value]="0"
                  formControlName="gender"/> Nam
           <i class="fa-solid fa-mars"></i>
         </label>
-
-        <label class="d-block me-4">
+        <label class="d-block me-4" for="female">
           <input class="form-check-input" type="radio" id="female" [value]="1"
                  formControlName="gender"/> Nữ
           <i class="fa-solid fa-venus"></i>
         </label>
 
-        <label class="d-block">
+        <label class="d-block" for="ljbt">
           <input class="form-check-input" type="radio" id="ljbt" [value]="2"
                  formControlName="gender"/> LGBT
           <i class="fa-solid fa-heart"></i>

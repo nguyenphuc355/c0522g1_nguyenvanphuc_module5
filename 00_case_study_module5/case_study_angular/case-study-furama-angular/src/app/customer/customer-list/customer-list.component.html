@@ -1,16 +1,18 @@
 <div class="text-center" id="listCustomer"><h1>Customer List</h1></div>
-<div class="row">
-  <div class="col-lg-9"></div>
-  <div class="d-flex my-2 col-lg-3" role="search">
-    <input class="form-control me-2" type="text" placeholder="Nhập tên.." aria-label="Search"
-           [(ngModel)]="customerNameSearch">
-    <button class="btn btn-light btn-outline-primary search" (click)="searchByName()">
-      search
-    </button>
-  </div>
+<!--<div class="row">-->
+<!--  <div class="col-lg-9"></div>-->
+<!--  <div class="d-flex my-2 col-lg-3" role="search">-->
+<!--    <input class="form-control me-2" type="text" placeholder="Nhập tên.." aria-label="Search"-->
+<!--           [(ngModel)]="customerNameSearch">-->
+<!--    <button class="btn btn-light btn-outline-primary search" (click)="searchByName()">-->
+<!--      search-->
+<!--    </button>-->
+<!--  </div>-->
+<!--</div>-->
+<div class="m-4">
+  <a routerLink="/customer/create">Add new customer</a>
 </div>
 <table class="table-bordered table table-striped" id="customerTable">
-  <thead>
   <tr class="bg-success">
     <th>#</th>
     <th>Name</th>
@@ -24,13 +26,15 @@
     <th>Edit</th>
     <th>Delete</th>
   </tr>
-  </thead>
-  <tbody>
-  <tr *ngFor="let c of customer, index as i">
-    <td>{{i + 1}}</td>
+  <tr *ngFor="let c of (customerList$ | async), index as i">
+    <td>{{(i + 1) + (page - 1) * pageSize}}</td>
     <td>{{c.name | titlecase}}</td>
     <td>{{c.dateOfBirth}}</td>
-    <td>{{c.gender}}</td>
+    <td>
+      <span *ngIf="c.gender == 0">Nam</span>
+      <span *ngIf="c.gender == 1">Nữ</span>
+      <span *ngIf="c.gender == 2">LGBT</span>
+    </td>
     <td>{{c.idCard}}</td>
     <td>{{c.phoneNumber}}</td>
     <td>{{c.email}}</td>
@@ -39,7 +43,7 @@
     <td class="text-center">
       <button data-bs-toggle="modal" data-bs-target="#deleteCustomer"
               class="btn btn-danger"
-              (click)="getInfoProductDelete(c.name, c.id)">
+        (click)="getInfoProductDelete(c.name, c.id)">
         Delete
       </button>
     </td>
@@ -47,9 +51,26 @@
       <button class="btn btn-success">Edit</button>
     </td>
   </tr>
-  </tbody>
 </table>
 
+
+<div class="d-flex justify-content-between p-2">
+  <ngb-pagination
+    [collectionSize]="(total$ | async)!"
+    [(page)]="page"
+    [maxSize]="5"
+    [pageSize]="pageSize"
+    (pageChange)="paginate()"
+  >
+  </ngb-pagination>
+
+  <select class="form-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="paginate()">
+    <option [ngValue]="2">2 items per page</option>
+    <option [ngValue]="4">4 items per page</option>
+    <option [ngValue]="6">6 items per page</option>
+    <option [ngValue]="50">50 items per page</option>
+  </select>
+</div>
 <div class="modal fade" id="deleteCustomer" tabindex="-1" aria-labelledby="exampleModalLabel1"
      aria-hidden="true">
   <div class="modal-dialog">
@@ -60,7 +81,7 @@
       </div>
 
       <div class="modal-body">
-        <span class="h6">Khách hàng:</span><strong class="text-danger ps-2">{{customerNameDelete}}</strong>
+        <span class="h6">Khách hàng:</span><strong class="text-danger ps-2">{{customerIdDelete}}</strong>
       </div>
 
       <div class="modal-footer">

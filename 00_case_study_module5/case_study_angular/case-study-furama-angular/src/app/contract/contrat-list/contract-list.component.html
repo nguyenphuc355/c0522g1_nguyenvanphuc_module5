@@ -1,39 +1,63 @@
-<div class="text-center text-light" id="header">
-  <button class="btn btn-success"><h1>Contract List</h1></button>
-</div>
-<table class="table  table-bordered" id="contractTable">
-  <thead>
-  <tr class="bg-primary text-center">
-    <th class="text-center">#</th>
-    <th>facility Name</th>
-    <th>Employee Name</th>
-    <th>Customer Name</th>
-    <th>Start Day</th>
-    <th>End Day</th>
-    <th>Deposit</th>
-    <th>Total Money</th>
-    <th class="text-center">Accompanied service</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>1</td>
-    <td>Villa Beach Front</td>
-    <td>Nguyễn Văn Phúc</td>
-    <td>Trương Đình Nghệ</td>
-    <td>2022-10-28</td>
-    <td>2022-10-29</td>
-    <td>120000</td>
-    <td>1000000</td>
-    <td class="text-center">
-      <button class="btn btn-primary btn-outline-secondary btn-sm">
-        <span class="fa-solid fa-plus text-light h6 m-auto"></span>
-      </button>
-      <button class="btn btn-primary btn-outline-secondary btn-sm">
-        <span class="text-light m-auto">The list of services</span>
-      </button>
-    </td>
-  </tr>
+<div class="px-5">
+  <div class="p-3 px-5 mx-5">
+    <h2 class="text-center fw-bold  mt-3">DANH SÁCH HỢP ĐỒNG</h2>
 
-  </tbody>
-</table>
+    <nav class="navbar navbar-expand-lg py-0 my-0 pb-2">
+      <div class="container-fluid">
+        <a routerLink="/contract/create">
+          <button class="btn btn-primary btn-outline-secondary">
+            <span class="fa-solid fa-plus text-light h6 my-auto me-1"></span>
+            <span class="text-light"> Thêm mới hợp đồng</span>
+          </button>
+        </a>
+      </div>
+    </nav>
+
+    <table class="table table-light table-striped table-bordered" id="customerTable">
+      <thead>
+      <tr class="table-dark text-light">
+        <th class="text-center">STT <i class="fa-sharp fa-solid fa-bolt"></i></th>
+        <th class="text-center">Tên khách hàng <i class="fa-solid fa-person-circle-question"></i></th>
+        <th class="text-center">Tên dịch vụ <i class="fa-solid fa-house"></i></th>
+        <th class="text-center">Ngày làm hợp đồng <i class="fa-regular fa-calendar"></i></th>
+        <th class="text-center">Ngày kết thúc hợp đồng <i class="fa-regular fa-calendar"></i></th>
+        <th class="text-center">Tiền đặt cọc <i class="fa-solid fa-money-bill-wave"></i></th>
+        <th class="text-center">Tổng tiền <i class="fa-solid fa-dollar-sign"></i></th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr *ngFor="let item of customerListPaging; index as i">
+        <td class="text-center">{{i + 1 + (curPage - 1) * 5 }}</td>
+        <td>{{item.customer.name}}</td>
+        <td>{{item.facility.name}}</td>
+        <td class="text-center">{{item.startDate | date: "dd/MM/yyyy"}}</td>
+        <td class="text-center">{{item.endDate | date: "dd/MM/yyyy"}}</td>
+        <td>{{item.deposit | currency: "VND"}}</td>
+        <td>{{item.deposit + item.facility.cost | currency: "VND"}}</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <nav aria-label="..." class="justify-content-center d-flex">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" (click)="previos()" *ngIf="curPage > 1">&laquo; Trang trước</a>
+        </li>
+        <li class="page-item disabled" *ngIf="curPage <= 1">
+          <a class="page-link">&laquo;</a>
+        </li>
+
+        <li class="page-item"><a class="page-link disabled" href="" [text]="curPage + ' / ' + totalPage"></a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" (click)="next()" *ngIf="curPage < totalPage">Trang sau &raquo;</a>
+        </li>
+        <li class="page-item disabled" *ngIf="curPage >= totalPage">
+          <a class="page-link">&raquo;</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
