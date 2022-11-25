@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .raise:hover,
+    .raise:focus {
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
+    .raise {
+      --color: #ffa260;
+      --hover: #e5ff60;
+    }
+    button {
+      color: var(--color);
+      transition: 0.25s;
+    }
+    button:hover, button:focus {
+      border-color: var(--hover);
+      color: black;
+    }
+    button {
+      background: none;
+      border: 2px solid;
+      font: inherit;
+      line-height: 1;
+      margin: 0.5em;
+      padding: 1em 2em;
+      border-radius: 10px;
+      /*height: 20px;*/
+    }
+
+  </style>
+</head>
+<body>
+<div class="buttons">
+  <h1>Simple hover effects with <code>box-shadow</code></h1>
+  <button class="offset">Offset</button>
+</div>
+</body>
+</html>

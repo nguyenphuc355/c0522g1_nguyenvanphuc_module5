@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Pipe} from '@angular/core';
 import {Product} from '../../model/product';
 import {ProductService} from '../../service/product.service';
 import {Router} from '@angular/router';
@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 export class ProductListComponent implements OnInit {
 
 
-  product: Product[] = [];
+  product: Product[] = [  ];
   productNameDelete: string;
   private productIdDelete: number;
   private mess: string;

@@ -42,13 +42,13 @@
     <td>{{c.customerType.name}}</td>
     <td class="text-center">
       <button data-bs-toggle="modal" data-bs-target="#deleteCustomer"
-              class="btn btn-danger"
-        (click)="getInfoProductDelete(c.name, c.id)">
+              class="btn btn-danger text-dark"
+              (click)="getInfoProductDelete(c.name, c.id)">
         Delete
       </button>
     </td>
     <td routerLink="/customer/edit/{{c.id}}">
-      <button class="btn btn-success">Edit</button>
+      <button class="btn btn-success text-dark">Edit</button>
     </td>
   </tr>
 </table>
@@ -71,6 +71,9 @@
     <option [ngValue]="50">50 items per page</option>
   </select>
 </div>
+
+<!--- Modal delete-->
+
 <div class="modal fade" id="deleteCustomer" tabindex="-1" aria-labelledby="exampleModalLabel1"
      aria-hidden="true">
   <div class="modal-dialog">
@@ -81,7 +84,7 @@
       </div>
 
       <div class="modal-body">
-        <span class="h6">Khách hàng:</span><strong class="text-danger ps-2">{{customerIdDelete}}</strong>
+        <span class="h6">Khách hàng:</span><strong class="text-danger ps-2">{{customerNameDelete}}</strong>
       </div>
 
       <div class="modal-footer">

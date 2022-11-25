@@ -1,0 +1,76 @@
+{
+  "soTietKiem": [
+    {
+      "id": 1,
+      "khachHang": {
+        "id": 1,
+        "tenKhachHang": "Huynh Van Nam"
+      },
+      "ngayMoSo": "2022-10-11",
+      "thoiGianBatDauGui": "2022-11-01",
+      "kyHan": {
+        "id": 2,
+        "ten": "6 tháng"
+      },
+      "soTienGui": "15000000",
+      "laiSuat": "1%",
+      "uuDai": "áo mưa"
+    },
+    {
+      "id": 2,
+      "khachHang": {
+        "id": 2,
+        "tenKhachHang": "Huynh Van B"
+      },
+      "ngayMoSo": "2022-10-11",
+      "thoiGianBatDauGui": "2022-11-01",
+      "kyHan": {
+        "id": 2,
+        "ten": "6 tháng"
+      },
+      "soTienGui": "15000000",
+      "laiSuat": "1%",
+      "uuDai": "áo mưa"
+    }
+  ],
+  "kyHan": [
+    {
+      "id": 1,
+      "ten": "3 tháng"
+    },
+    {
+      "id": 2,
+      "ten": "6 tháng"
+    },
+    {
+      "id": 3,
+      "ten": "1 năm"
+    },
+    {
+      "id": 4,
+      "ten": "5 năm"
+    },
+    {
+      "id": 5,
+      "ten": "không kì hạn"
+    }
+  ],
+  "khachHang": [
+    {
+      "id": 1,
+      "tenKhachHang": "Huỳnh Văn Nam"
+    },
+    {
+      "id": 2,
+      "tenKhachHang": "Huỳnh Văn Nam"
+    },
+    {
+      "id": 3,
+      "tenKhachHang": "Huỳnh Văn Nam"
+    },
+    {
+      "id": 4,
+      "tenKhachHang": "Huỳnh Văn Nam"
+    }
+  ]
+}

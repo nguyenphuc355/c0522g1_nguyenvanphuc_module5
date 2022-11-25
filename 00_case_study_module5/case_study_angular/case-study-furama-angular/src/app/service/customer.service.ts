@@ -4,7 +4,6 @@ import {Observable} from 'rxjs';
 import {Customer} from '../model/customer';
 import {SearchResult} from '../model/SearchResult';
 import {environment} from '../../environments/environment';
-import {CustomerType} from '../model/customer-type';
 
 @Injectable({
   providedIn: 'root'
@@ -24,7 +23,7 @@ export class CustomerService {
   }
 
   updateCustomer(id: number, customer: Customer): Observable<Customer> {
-    return this.http.patch<Customer>(environment.api_url + 'customers/edit/' + id, customer);
+    return this.http.patch<Customer>(this.API_URL + '/edit/' + id, customer);
   }
 
   findById(customerId: number): Observable<Customer> {

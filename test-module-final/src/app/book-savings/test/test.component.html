@@ -1,0 +1,75 @@
+<div class="text-center"><h1>Danh sách sản phẩm</h1></div>
+<div class="row">
+  <div class="col-lg-9"></div>
+  <div class="d-flex my-2 col-lg-3" role="search">
+    <input class="form-control me-2" type="text" placeholder="Nhập tên.." aria-label="Search"
+           [(ngModel)]="tenSearch">
+        <button class="btn btn-light btn-outline-primary" (click)="searchByMore()">
+          search
+        </button>
+  </div>
+</div>
+<table class="table table-bordered table-hover">
+  <thead>
+  <tr class="bg-info text-center">
+    <th>Mã số sổ</th>
+    <th>Mã khách hàng</th>
+    <th>Tên khách hàng</th>
+    <th>Ngày mở sổ</th>
+    <th>Thời  gian bắt đầu gửi</th>
+    <th>Kỳ hạn</th>
+    <th>Số tiền gửi</th>
+    <th>Lãi suất</th>
+    <th>Ưu đãi</th>
+    <th>Edit</th>
+    <th>Delete</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let s of soTietKiems; index as i">
+    <td>{{s.id}}</td>
+    <td>{{s.khachHang.id}}</td>
+    <td>{{s.khachHang.tenKhachHang}}</td>
+    <td class="text-center">{{s.ngayMoSo}}</td>
+    <td class="text-center">{{s.thoiGianBatDauGui}}</td>
+    <td class="text-center">{{s.kyHan.ten}}</td>
+    <td class="text-center">{{s.soTienGui}}</td>
+    <td class="text-center">{{s.laiSuat}}</td>
+    <td class="text-center">{{s.uuDai}}</td>
+    <td class="text-center"><a routerLink="/product/edit/{{s.id}}">
+      <button class="btn btn-success">
+        Edit
+      </button>
+    </a></td>
+    <!--      <td><a routerLink="/product/delete/{{product.id}}">Delete</a></td>-->
+    <!--      <td><a href="javascript: void()" (click)="onDelete(product.id,product.name)">Delete</a></td>-->
+    <td class="text-center">
+      <button data-bs-toggle="modal" data-bs-target="#deleteProduct"
+              class="btn btn-danger"
+              (click)="getInfoDelete(s.id)">
+        Delete
+      </button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<div class="modal fade" id="deleteProduct" tabindex="-1" aria-labelledby="exampleModalLabel1"
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modalCSS">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel1">Bạn có chắc chắn muốn xóa?</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <span class="h6">Khách hàng:</span><strong class="text-danger ps-2">{{maSoDelete}}</strong>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="submit" class="btn btn-danger" data-bs-dismiss="modal" (click)="deleteCustomer()">Xóa</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,10 +1,10 @@
 {
   "product": [
     {
-      "id": 4,
+      "id": 1,
       "name": "IPhone 8",
       "price": 7540000,
-      "description": "98%",
+      "description": "new",
       "category": {
         "id": 1,
         "name": "apple"
@@ -15,10 +15,10 @@
       "price": 26000000,
       "description": "new",
       "category": {
-        "id": 31,
+        "id": 2,
         "name": "samsung"
       },
-      "id": 5
+      "id": 2
     },
     {
       "name": "iphone 13 promax",
@@ -28,17 +28,7 @@
         "name": "Apple",
         "id": 1
       },
-      "id": 6
-    },
-    {
-      "name": "samsung a30",
-      "price": 15000000,
-      "description": "new",
-      "category": {
-        "id": 31,
-        "name": "samsung"
-      },
-      "id": 7
+      "id": 3
     },
     {
       "name": "vertu",
@@ -46,9 +36,9 @@
       "description": "new",
       "category": {
         "name": "vertu",
-        "id": 33
+        "id": 4
       },
-      "id": 8
+      "id": 4
     },
     {
       "name": "nokia 7",
@@ -56,9 +46,19 @@
       "description": "new",
       "category": {
         "name": "nokia",
-        "id": 34
+        "id": 5
       },
-      "id": 9
+      "id": 5
+    },
+    {
+      "name": "iphone14 pro",
+      "price": 32000000,
+      "description": "NEW 100%",
+      "category": {
+        "name": "Apple",
+        "id": 1
+      },
+      "id": 6
     }
   ],
   "category": [
@@ -67,20 +67,20 @@
       "id": 1
     },
     {
-      "id": 31,
+      "id": 2,
       "name": "samsung"
     },
     {
       "name": "oppo",
-      "id": 32
+      "id": 3
     },
     {
       "name": "vertu",
-      "id": 33
+      "id": 4
     },
     {
       "name": "nokia",
-      "id": 34
+      "id": 5
     }
   ]
 }

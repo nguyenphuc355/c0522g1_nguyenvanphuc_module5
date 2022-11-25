@@ -1,0 +1,91 @@
+<div class="text-center"><h1>Danh sách sản phẩm</h1></div>
+<div class="row">
+  <div class="col-lg-9"></div>
+  <div class="d-flex my-2 col-lg-3" role="search">
+    <input class="form-control me-2" type="text" placeholder="Nhập tên.." aria-label="Search"
+           [(ngModel)]="productNameSearch">
+    <button class="btn btn-light btn-outline-primary" (click)="searchByMore()">
+      search
+    </button>
+  </div>
+</div>
+<div *ngIf="productListPaging != null">
+  <table class="table table-bordered table-hover">
+    <thead>
+    <tr class="bg-info text-center">
+      <th>STT</th>
+      <th>Tên</th>
+      <th>Giá</th>
+      <th>Mô tả</th>
+      <th>Danh mục</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let product of productListPaging; index as i">
+      <td>{{i + 1}}</td>
+      <td><a routerLink="/product/detail/{{product.id}}">{{product.name | titlecase}}</a></td>
+      <td>{{product.price | currency}}</td>
+      <td class="text-center">{{product.description | titlecase}}</td>
+      <td class="text-center">{{product.category.name | titlecase}}</td>
+      <td class="text-center"><a routerLink="/product/edit/{{product.id}}">
+        <button class="btn btn-success">
+          Edit
+        </button>
+      </a></td>
+      <!--      <td><a routerLink="/product/delete/{{product.id}}">Delete</a></td>-->
+      <!--      <td><a href="javascript: void()" (click)="onDelete(product.id,product.name)">Delete</a></td>-->
+      <td class="text-center">
+        <button data-bs-toggle="modal" data-bs-target="#deleteProduct"
+                class="btn btn-danger"
+                (click)="getInfoProductDelete(product.name, product.id)">
+          Delete
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+<!--  <nav aria-label="..." class="justify-content-center d-flex">-->
+<!--    <ul class="pagination">-->
+<!--      <li class="page-item">-->
+<!--        <a class="page-link" (click)="previos()" *ngIf="curPage > 1">&laquo; Trang trước</a>-->
+<!--      </li>-->
+<!--      <li class="page-item disabled" *ngIf="curPage <= 1">-->
+<!--        <a class="page-link">&laquo;</a>-->
+<!--      </li>-->
+
+<!--      <li class="page-item"><a class="page-link disabled" href=""-->
+<!--                               [text]="curPage + ' / ' + totalPage" *ngIf="curPage <= totalPage"></a>-->
+<!--      </li>-->
+
+<!--      <li class="page-item">-->
+<!--        <a class="page-link" (click)="next()" *ngIf="curPage < totalPage">Trang sau &raquo;</a>-->
+<!--      </li>-->
+<!--      <li class="page-item disabled" *ngIf="curPage >= totalPage">-->
+<!--        <a class="page-link">&raquo;</a>-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </nav>-->
+<!--</div>-->
+<div class="modal fade" id="deleteProduct" tabindex="-1" aria-labelledby="exampleModalLabel1"
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modalCSS">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel1">Bạn có chắc chắn muốn xóa?</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <span class="h6">Khách hàng:</span><strong class="text-danger ps-2">{{productNameDelete}}</strong>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="submit" class="btn btn-danger" data-bs-dismiss="modal" (click)="deleteProduct()">Xóa</button>
+      </div>
+    </div>
+  </div>
+</div>

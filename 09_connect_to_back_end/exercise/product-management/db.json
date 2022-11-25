@@ -3,7 +3,7 @@
     {
       "id": 3,
       "name": "IPhone X",
-      "price": 968000,
+      "price": 27000000,
       "description": "97%",
       "category": {
         "id": 1,
@@ -59,6 +59,16 @@
         "name": "samsung"
       },
       "id": 7
+    },
+    {
+      "name": "vertu",
+      "price": 50000000,
+      "description": "new ",
+      "category": {
+        "name": "vertu",
+        "id": 33
+      },
+      "id": 8
     }
   ],
   "category": [
@@ -67,16 +77,16 @@
       "name": "apple"
     },
     {
-      "id": 2,
-      "name": "oppo"
-    },
-    {
       "id": 31,
       "name": "samsung"
     },
     {
-      "name": "vertu",
+      "name": "oppo",
       "id": 32
+    },
+    {
+      "name": "vertu",
+      "id": 33
     }
   ]
 }

@@ -54,7 +54,7 @@ export class EditCustomerComponent implements OnInit {
       Swal.fire({
         icon: 'success',
         title: 'Chỉnh sửa thành công!',
-        text: 'Khách hàng: ' + customer.customerName,
+        text: 'Khách hàng: ' + customer.name,
         width: 600,
         padding: '3em',
         color: '#716add',
@@ -66,7 +66,7 @@ export class EditCustomerComponent implements OnInit {
         no-repeat
       `
       });
-      this.router.navigateByUrl('/customers');
+      this.router.navigateByUrl('/customer');
     }, error => {
 
     }, () => {

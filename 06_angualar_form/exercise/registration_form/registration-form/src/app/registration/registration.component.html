@@ -19,7 +19,6 @@
           && contactForm.get('passwordGroup').get('password').touched">
         password is not valid
       </p>
-
       <p class="text-danger"
          *ngIf="contactForm.get('passwordGroup').hasError('minlength','password')
           && contactForm.get('passwordGroup').get('password').dirty">
@@ -50,7 +49,6 @@
     <select id="country" formControlName="country">
       <option *ngFor="let c of countryList" [ngValue]="c.name">{{c.name}}</option>
     </select>
-
     <p class="text-danger"
        *ngIf="!contactForm.controls.country?.valid && (contactForm.controls.country?.dirty
     ||contactForm.controls.country?.touched)">
@@ -69,11 +67,11 @@
     </p>
   </div>
 
-  <div>
-    <label>Gender </label>
-    <input type="radio" value="male" name="gender" formControlName="gender"> Male
-    <input type="radio" value="female" name="gender" formControlName="gender"> Female
-    <input type="radio" value="female" name="gender" formControlName="gender"> LGBT
+  <div class="mt-3 mb-3">
+    <label>Gender: </label>
+    <label><input type="radio" value="male" name="gender" formControlName="gender"> Male</label>
+    <label><input type="radio" value="female" name="gender" formControlName="gender"> Female</label>
+    <label><input type="radio" value="LGBT" name="gender" formControlName="gender"> LGBT</label>
 
     <p class="text-danger"
        *ngIf="!contactForm.controls.gender?.valid && (contactForm.controls.gender?.pristine

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dd72a4c9-0db3-4e39-8290-5bd742e8ab48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../04_angular_component_template/practice/parent_to_child/.idea/parent_to-child.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/exercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todo_app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../test/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../001_Căn bản về UX_UI/Simplify your life.htm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../001_Căn bản về UX_UI/Simplify your life.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../001_Căn bản về UX_UI/Simplify your life_files/24847ca6-6a1d-4069-88b5-80e353cebbac.png" beforeDir="false" />
@@ -34,6 +33,37 @@
       <change beforePath="$PROJECT_DIR$/../../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._inbox_zero_tiny.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._instagram.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../001_Căn bản về UX_UI/__MACOSX/Simplify your life_files/._teacher_banner3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/customer/customer-list/customer-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/customer/customer-list/customer-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/customer/edit-customer/edit-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/customer/edit-customer/edit-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/customer/edit-customer/edit-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/customer/edit-customer/edit-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/service/customer-type.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/service/customer-type.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/service/customer.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/app/service/customer.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../00_case_study_module5/case_study_angular/case-study-furama-angular/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/registration_form/registration-form/src/app/registration/registration.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/registration_form/registration-form/src/app/registration/registration.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/registration_form/registration-form/src/app/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/registration_form/registration-form/src/app/registration/registration.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-todo-app/src/app/todo/todo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-todo-app/src/app/todo/todo.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/product/product-create/product-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/product/product-create/product-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/product/product-create/product-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/product/product-create/product-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/service/category.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/service/category.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/shared/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07_router_service/exericse/product-management/src/app/shared/nav-bar/nav-bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/category/category-list/category-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/category/category-list/category-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-create/product-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-create/product-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-list/product-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-list/product-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-list/product-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-update/product-update.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/product/product-update/product-update.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/shared/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/shared/navbar/navbar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/shared/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/app/shared/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../08_module_DI/exercise/product-management/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_connect_to_back_end/exercise/product-management/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../09_connect_to_back_end/exercise/product-management/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../09_connect_to_back_end/exercise/product-management/src/app/product/product-list/product-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../09_connect_to_back_end/exercise/product-management/src/app/product/product-list/product-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../case_study_module5/case_study/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../case_study_module5/case_study/.idea/case_study.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../case_study_module5/case_study/.idea/misc.xml" beforeDir="false" />
@@ -522,6 +552,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2GM55HGRDJSgJfypk42p5tuuwUp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -533,7 +566,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module5/06_angualar_form/exercise/todo_app",
+    "last_opened_file_path": "D:/codegym/module5/06_angualar_form/practice/todo_app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -547,6 +584,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666185427190</updated>
       <workItem from="1666185428437" duration="159000" />
+      <workItem from="1668329927032" duration="573000" />
     </task>
     <servers />
   </component>

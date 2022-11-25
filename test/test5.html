@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+
+        .jumbotron {
+            background-image: url("https://www.smak.co.za/images/bg.jpg");
+            background-size: 100% 100%;
+            color: #b0bec5;
+            margin-bottom: 0;
+        }
+
+        .navbar-scroll {
+            background-color: rgba(0, 123, 255, 0.4);
+            transition: background-color 0.5s;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                background-color: #007bff !important;
+            }
+        }
+
+        /* ============================================================
+          PRIMARY STRUCTURE
+        ============================================================ */
+        .parallax-container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        /* ============================================================
+          SECTIONS
+        ============================================================ */
+        section.module:last-child {
+            margin-bottom: 0;
+        }
+
+        section.module h2 {
+            margin-bottom: 40px;
+            font-family: "Roboto Slab", serif;
+            font-size: 30px;
+        }
+
+        section.module p {
+            margin-bottom: 40px;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        section.module p:last-child {
+            margin-bottom: 0;
+        }
+
+        section.module.content {
+            padding: 40px 0;
+            background-color: rgba(207, 216, 220, 0.5);
+        }
+
+        section.module.content:last-child {
+            margin-bottom: 60px;
+        }
+
+        section.module.parallax {
+            padding: 240px 0;
+            background-position: 0 0;
+        }
+
+        section.module.parallax h1 {
+            color: #1e1e1e;
+            font-size: 48px;
+            line-height: 1;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px white;
+        }
+
+        section.module.parallax-1 {
+            background-image: url("https://i.ytimg.com/vi/SwOaV-pzGcA/maxresdefault.jpg");
+            background-position: 50% 0;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: rgba(0, 123, 255, 0.4);
+            background-blend-mode: screen;
+        }
+
+        section.module.parallax-2 {
+            background-image: url("http://www.planwallpaper.com/static/images/Fall-Nature-Background-Pictures.jpg");
+            background-position: 50% 0;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: rgba(0, 123, 255, 0.4);
+            background-blend-mode: screen;
+        }
+
+        section.module.parallax-3 {
+            background-image: url("http://www.psd-dude.com/tutorials/resources-images/free-rain-and-raindrop-textures-for-photoshop/raindrops-window-background.jpg");
+            background-position: 50% 0;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: rgba(0, 123, 255, 0.4);
+            background-blend-mode: screen;
+        }
+
+        @media all and (min-width: 600px) {
+            section.module h2 {
+                font-size: 42px;
+            }
+
+            section.module p {
+                font-size: 20px;
+            }
+
+            section.module.parallax {
+                padding: 300px 0;
+            }
+
+            section.module.parallax h1 {
+                font-size: 96px;
+            }
+        }
+
+        @media all and (min-width: 960px) {
+            section.module.parallax h1 {
+                font-size: 160px;
+            }
+        }
+
+        /*footer*/
+        .footer .container-fluid {
+            height: auto;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            line-height: 60px;
+        }
+
+        footer .container-fluid a {
+            display: inline-block;
+            color: #ddd;
+            padding-left: 1em;
+
+        }
+
+        footer .container-fluid p {
+            display: inline-block;
+            color: #ddd;
+            padding-left: 1em;
+            padding-right: 2em;
+        }
+
+        @media (max-width: 768px) {
+            .col-md-4 {
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-fade fixed-top text-dark">
+    <a class="navbar-brand text-dark" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">link 2</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!--        <form class="form-inline my-2 my-lg-0">-->
+        <!--            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">-->
+        <!--            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>-->
+        <!--        </form>-->
+    </div>
+</nav>
+<div class="jumbotron jumbotron-fluid mt-5">
+    <div class="container">
+        <h1 class="display-3">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+<section class="module parallax parallax-1" data-type="background" data-speed="10">
+    <div class="parallax-container">
+        <h1>Motion</h1>
+    </div>
+</section>
+
+<section class="module content">
+    <div class="parallax-container">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor...</p>
+    </div>
+</section>
+
+<section class="module parallax parallax-2" data-type="background" data-speed="10">
+    <div class="parallax-container">
+        <h1>Shape</h1>
+    </div>
+</section>
+
+<section class="module content">
+    <div class="parallax-container">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor...</p>
+    </div>
+</section>
+
+<section class="module parallax parallax-3" data-type="background" data-speed="10">
+    <div class="parallax-container">
+        <h1>Color</h1>
+    </div>
+</section>
+
+<section class="module content">
+    <div class="parallax-container">
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum dolor...</p>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-xs-6 col-md-4 left">
+                <p>&copy; MySite.com</p>
+            </div>
+            <div class="col-xs-6 col-md-4 left">
+                <a href="#">Terms &amp;Conditions</a>
+                <a href="#">About Us</a>
+            </div>
+            <div class="col-xs-6 col-md-4 right">
+                <a href="#" class="btn btn-social-icon btn-twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-twitter"
+                         viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                </a>
+                <a href="#" class="btn btn-social-icon btn-facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-facebook"
+                         viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                </a>
+                <a href="#" class="btn btn-social-icon btn-instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-github"
+                         viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var $window = $(window);
+        $('section[data-type="background"]').each(function () {
+            var $bgobj = $(this); // assigning the object
+
+            $(window).scroll(function () {
+                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+
+                // Put together our final background position
+                var coords = '50% ' + yPos + 'px';
+
+                // Move the background
+                $bgobj.css({backgroundPosition: coords});
+            });
+        });
+    });
+
+    //menu transition js
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll > 0) {
+                $(".navbar").addClass("navbar-scroll");
+            } else {
+                $(".navbar").removeClass("navbar-scroll");
+            }
+            if (scroll > 200) {
+                $(".navbar").addClass("bg-primary");
+            } else {
+                $(".navbar").removeClass("bg-primary");
+            }
+        })
+    })
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

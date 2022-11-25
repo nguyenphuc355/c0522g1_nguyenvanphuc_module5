@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý tài khoản</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="row">
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-8">
+        <div class="row mt-3">
+            <div>
+                <h3 class=" fw-bold text-light mb-4" ><span style="box-shadow: 0 8px 15px lightblue; padding: 11px">
+    QUẢN LÝ TÀI KHOẢN</span></h3>
+            </div>
+            <div class="col-lg-4 col-12 col-md-6 ">
+                <div class="text-center" style="background-color: #f5eeee;">
+                    <div class="info-dk">
+                        <div class="bg-warning">
+                            <img src="https://photocross.net/wp-content/uploads/2020/03/anh-chan-dung.jpg" height="200"
+                                 width="200" class="m-3">
+                        </div>
+                        <div>
+                            <h3>Jackie TL</h3>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                     class="bi bi-award-fill" viewBox="0 0 16 16">
+                                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                </svg>
+                                Điểm tích lũy: 120
+                            </p>
+                            <div>
+                                <a>
+                                    <button class="button btnRed">Đăng xuất</button>
+                                </a>
+                            </div>
+                            <hr>
+                            <a href="#">
+                                <span class="text-dark">Thông tin tài khoản</span>
+                            </a>
+                            <hr>
+                            <div class="row">
+                                <div>
+                                    <a href="#" class="text-dark">
+                                        Lịch sử
+                                    </a>
+                                </div>
+                                <hr>
+                                <div>
+                                    <a href="#" class="text-dark">
+                                        Vé đã đặt
+                                    </a>
+                                </div>
+                                <hr>
+                                <div>
+                                    <a href="#" class="text-dark">
+                                        Vé đã hủy
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: #f2f2f2">
+                    <div class="ms-3 pt-3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 c0l-md-6">
+                <div id="head" class="bg-warning"><h5 class="text-light pt-3 ms-2">THÔNG TIN ĐĂNG NHẬP</h5></div>
+                <form>
+                    <div>
+                        <label for="idCard"><b>Thẻ Thành Viên</b><span class="war">*</span></label>
+                        <input type="text" readonly value="TV0000001" id="idCard">
+                    </div>
+                    <div>
+                        <label for="account" class="text-center"><b>Tài Khoản</b><span class="war">*</span></label>
+                        <input type="text" value="nvtlong" readonly id="account">
+                    </div>
+                    <div>
+                        <label for="psw"><b>Mật Khẩu Cũ</b><span class="war">*</span></label>
+                        <input type="password" name="psw" id="psw">
+                    </div>
+                    <div>
+                        <label for="newpsw"><b>Mật Khẩu Mới</b><span class="war">*</span></label>
+                        <input type="password" id="newpsw">
+                    </div>
+                    <div>
+                        <label for="psw"><b>Nhập Lại Mật Khẩu</b><span class="war">*</span>
+                            <span style="color: red" class="ps-3">Mật khẩu phải giống nhau</span>
+                        </label>
+                        <input type="password" name="psw" id="psw-repeat">
+                    </div>
+                    <div class="text-center wrapCss">
+                        <button type="submit" class="button btnYellow" style="width: 160px">Đổi mật khẩu</button>
+                    </div>
+                </form>
+                <div class="main-block mt-5 mb-5">
+                    <div id="header" class="bg-warning"><h5 class="text-light pt-3 ms-2">THÔNG TIN TÀI KHOẢN</h5></div>
+                    <form>
+                        <div>
+                            <label for="name" class="text-center"><b>Họ Tên</b><span class="war">*</span>
+                                <span style="color: red" class="ps-3">Không được để trống</span>
+                            </label>
+                            <input type="text" id="name">
+                        </div>
+                        <div>
+                            <label for="birthday"><b>Ngày Sinh</b><span class="war">*</span></label>
+                            <input type="date" id="birthday">
+                        </div>
+                        <div>
+                            <label class="mt-2"><b>Giới Tính</b><span class="war">*</span></label><br>
+                            <label><input type="radio" class="m-2 ms-5" value="nam" name="gender">Nam</label>
+                            <label><input type="radio" class="m-2 ms-5" value="nữ" name="gender">Nữ</label>
+                            <label class="mb-3"><input type="radio" class="m-2 ms-5" value="khác" name="gender">Khác</label><br>
+
+
+                        </div>
+                        <div>
+                            <label for="email"><b>Email</b><span class="war">*</span></label>
+                            <input type="email" id="email">
+                        </div>
+                        <div>
+                            <label for="code"><b>CMND</b><span class="war">*</span></label>
+                            <input type="number" id="code">
+                        </div>
+                        <div>
+                            <label for="phoneNumber"><b>Số Điện Thoại</b><span class="war">*</span></label>
+                            <input type="number" id="phoneNumber">
+                        </div>
+                        <div>
+                            <label for="address"><b>Địa Chỉ</b><span class="war">*</span></label>
+                            <input type="text" id="address">
+                        </div>
+                        <div class="text-center wrapCss">
+                            <button type="submit" class="button btnYellow">Cập nhật</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-2">
+    </div>
+</div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
