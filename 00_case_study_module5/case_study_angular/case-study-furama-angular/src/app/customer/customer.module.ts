@@ -19,15 +19,15 @@ import {NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap';
   exports: [
     CustomerListComponent
   ],
-    imports: [
-        CommonModule,
-        RoutingModule,
-        HttpClientModule,
-        ReactiveFormsModule,
-        FormsModule,
-        RouterModule,
-        NgbPaginationModule
-    ]
+  imports: [
+    CommonModule,
+    RoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+    RouterModule,
+    NgbPaginationModule
+  ]
 })
 export class CustomerModule {
 }

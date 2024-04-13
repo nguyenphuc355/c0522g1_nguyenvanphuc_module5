@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("https://wallpapercave.com/uwp/uwp466967.jpeg")
+        }
+    </style>
+</head>
+<head th:insert="/index :: head"></head>
+<body style="margin-top: 150px">
+
+<div class="text-center text-light" style="margin-top: 200px">
+    <button class="btn btn-success" style="background-color:#595C99;color: #FFFA24"><h1>Edit Facility</h1></button>
+</div>
+<div><a th:href="@{/facility}" class="text-light"><i class="fa-sharp fa-solid fa-house-user"></i>Back To Facility
+    List</a></div>
+<div id="form" class="text-center" style=" background-color: #afd3f3;">
+    <form th:action="@{/facility/update}" th:object="${facilityDto}"
+          method="post" novalidate="novalidate">
+        <input type="hidden" th:field="*{id}"/>
+        <div id="facilityType">
+            <label><b> Service Name</b></label>
+            <input type="text" hidden th:field="*{facilityTypeS.id}"/>
+            <input type="text" readonly th:value="${facilityDto.facilityTypeS.name}"/>
+        </div>
+        <div>
+            <label><b>Facility Name</b></label>
+            <input type="text" th:field="*{name}"/>
+            <p style="color: red" th:errors="*{name}"
+               th:if="${#fields.hasErrors('name')}"></p>
+        </div>
+
+        <div>
+            <label><b>Using Area</b></label>
+            <input type="number" th:field="*{area}"/>
+            <p style="color: red" th:errors="*{area}"
+               th:if="${#fields.hasErrors('area')}"></p>
+        </div>
+        <div>
+            <label><b>Cost</b></label>
+            <input type="number" th:field="*{cost}"/>
+            <p style="color: red" th:errors="*{cost}"
+               th:if="${#fields.hasErrors('cost')}"></p>
+        </div>
+        <div>
+            <label><b>Max people</b></label>
+            <input type="text" th:field="*{maxPeople}"/>
+            <p style="color: red" th:errors="*{maxPeople}"
+               th:if="${#fields.hasErrors('maxPeople')}"></p>
+        </div>
+        <div th:if="${facilityDto.facilityTypeS.id !=3}">
+            <label><b>Phone Number</b></label>
+            <input type="text" th:field="*{standardRoom}"/>
+            <p style="color: red" th:errors="*{standardRoom}"
+               th:if="${#fields.hasErrors('standardRoom')}"></p>
+        </div>
+        <div>
+            <input hidden th:if="${facilityDto.facilityTypeS.id == 3}" th:value="${''}">
+        </div>
+        <div th:if="${facilityDto.facilityTypeS.id !=3}">
+            <label><b>Description</b></label>
+            <input type="text" th:field="*{descriptionOtherConvenience}"/>
+            <p style="color: red" th:errors="*{descriptionOtherConvenience}"
+               th:if="${#fields.hasErrors('descriptionOtherConvenience')}"></p>
+        </div>
+        <div>
+            <input hidden th:if="${facilityDto.facilityTypeS.id == 3}" th:value="${''}">
+        </div>
+        <div th:if="${facilityDto.facilityTypeS.id == 1}">
+            <label><b>Pool Area</b></label>
+            <input type="text" th:field="*{poulArea}"/>
+            <p style="color: red" th:errors="*{poulArea}"
+               th:if="${#fields.hasErrors('poulArea')}"></p>
+        </div>
+        <div>
+            <input hidden th:if="${facilityDto.facilityTypeS.id !=1}" th:value="${''}">
+        </div>
+        <div th:if="${facilityDto.facilityTypeS.id !=3}">
+            <label><b>Number Of Floor</b></label>
+            <input type="number" th:field="*{numberOfFloors}"/>
+            <p style="color: red" th:errors="*{numberOfFloors}"
+               th:if="${#fields.hasErrors('numberOfFloors')}"></p>
+        </div>
+        <div>
+            <input hidden th:if="${facilityDto.facilityTypeS.id == 3}" th:value="${''}">
+        </div>
+        <div th:if="${facilityDto.facilityTypeS.id ==3}">
+            <label><b>Facility Free</b></label>
+            <input type="text" th:field="*{facilityFree}"/>
+            <p style="color: red" th:errors="*{facilityFree}"
+               th:if="${#fields.hasErrors('facilityFree')}"></p>
+        </div>
+        <div>
+            <input hidden th:if="${facilityDto.facilityTypeS.id != 3}" th:value="${''}">
+        </div>
+        <div id="rentType" th:if="${facilityDto.facilityTypeS.id !=3}">
+            <label><b>Rent Type</b></label>
+            <select th:field="*{renType}">
+                <option th:each="item :${rentTypeList}"
+                        th:text="${item.name}"
+                        th:value="${item.id}">
+                </option>
+            </select>
+        </div>
+        <div>
+            <input hidden th:if="${facilityDto.facilityTypeS.id == 3}" th:value="${''}">
+        </div>
+
+        <input id="edit" type="submit" value="Edit"/>
+    </form>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+<!--<footer th:insert="/index :: footer"></footer>-->
+</html>

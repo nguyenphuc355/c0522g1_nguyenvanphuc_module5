@@ -8,7 +8,7 @@ import {Customer} from '../model/customer';
   providedIn: 'root'
 })
 export class ContractService {
-  private API_URL = 'http://localhost:3000/';
+  private API_URL = 'http://localhost:8080/api/';
 
   constructor(private httpClient: HttpClient) {
   }
